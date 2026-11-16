@@ -1,6 +1,7 @@
 name: libsixel CI (build & test)
 
 on:
+  workflow_dispatch:
   push:
     branches: ['*']
   pull_request:
